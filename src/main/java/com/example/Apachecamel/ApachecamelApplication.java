@@ -15,7 +15,7 @@ public class ApachecamelApplication extends RouteBuilder{
 	public void configure() throws Exception {
 		// TODO Auto-generated method stub
 		System.out.println("let go");
-		from("file:C:/Users/Ilham/Desktop/a").to("file:C:\\Users\\Ilham\\Desktop");
+		from("file:C:/Users/Ilham/Desktop/a").to("file:C:/Users/Ilham/Desktop/b");
 		System.out.println("end");
 		
 	}
